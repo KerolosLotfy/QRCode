@@ -9,7 +9,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-    transition: all .1s;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 /************************ card ******************************/
 .card {
     width: 18rem;
@@ -71,9 +71,10 @@ body {
     width: 100%;
     padding: 10px;
     cursor: pointer;
-    font-size: 1.7em;
     gap: 10px;
+    font-size: 15px;
 }
+
 /************************ change theme by JS **********************/
 #theme .moon {
     background-color: var(--Dark-blue);
@@ -87,17 +88,18 @@ body {
     color: #FF5722;
     border-radius: 50%;
     padding: 10px;
-    animation: rotate 1s linear infinite normal none;
+    animation: rotate 1s normal none;
+    animation-iteration-count: 1;
 }
 
 /* add sample animation to sun icon */
 @keyframes rotate {
     0% {
-        transform: rotate(0deg);
+        color: var(--White);
     }
 
     100% {
-        transform: rotate(360deg);
+        color: #FF5722;
     }
 }
 
@@ -109,4 +111,3 @@ body {
 .bg {
     background-color: #263238;
 }
-
