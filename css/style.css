@@ -88,18 +88,20 @@ body {
     color: #FF5722;
     border-radius: 50%;
     padding: 10px;
+    
+}
+path {
     animation: rotate 1s normal none;
     animation-iteration-count: 1;
 }
-
 /* add sample animation to sun icon */
 @keyframes rotate {
     0% {
-        color: var(--White);
+        transform: translateY(-500px);
     }
 
     100% {
-        color: #FF5722;
+        transform: translateY(0px);
     }
 }
 
