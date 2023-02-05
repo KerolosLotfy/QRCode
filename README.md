@@ -12,8 +12,10 @@ The challenge is to build out this product preview card component and get it loo
  - add button to change themes by JS
 
 
-## Source:-
-[Frontendmentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+## links:-
+ - Source [Frontendmentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+
+- [MyDemo](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Author:-
 kerolos Lotfy
